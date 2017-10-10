@@ -84,13 +84,23 @@
               }
             },
             {
-              "dockerfile": "2.0/nanoserver/runtime",
+              "dockerfile": "2.0/nanoserver/14393/runtime",
               "os": "windows",
               "tags": {
-                "2.0.0-nanoserver": {},
+                "2.0.0-nanoserver-14393": {},
+                "2.0.0-nanoserver": {
+                  "isUndocumented": true
+                },
                 "2.0.0-nanoserver-$(nanoServerVersion)": {
                   "isUndocumented": true
                 }
+              }
+            },
+            {
+              "dockerfile": "2.0/nanoserver/1709/runtime",
+              "os": "windows",
+              "tags": {
+                "2.0.0-nanoserver-1709": {}
               }
             }
           ]
@@ -182,13 +192,23 @@
               }
             },
             {
-              "dockerfile": "2.0/nanoserver/sdk",
+              "dockerfile": "2.0/nanoserver/14393/sdk",
               "os": "windows",
               "tags": {
-                "2.0.2-nanoserver": {},
+                "2.0.2-nanoserver-14393": {},
+                "2.0.2-nanoserver": {
+                  "isUndocumented": true
+                },
                 "2.0.2-nanoserver-$(nanoServerVersion)": {
                   "isUndocumented": true
                 }
+              }
+            },
+            {
+              "dockerfile": "2.0/nanoserver/1709/sdk",
+              "os": "windows",
+              "tags": {
+                "2.0.2-nanoserver-1709": {}
               }
             }
           ]
@@ -258,14 +278,30 @@
               }
             },
             {
-              "dockerfile": "2.0/nanoserver/kitchensink",
+              "dockerfile": "2.0/nanoserver/14393/kitchensink",
               "os": "windows",
               "tags": {
-                "1.0-2.0-nanoserver": {},
+                "1.0-2.0-nanoserver-14393": {},
+                "1.0-2.0-nanoserver": {
+                  "isUndocumented": true
+                },
                 "1.0-2.0-2017-10-nanoserver": {
                   "isUndocumented": true
                 },
+                "1.0-2.0-2017-10-nanoserver-14393": {
+                  "isUndocumented": true
+                },
                 "1.0-2.0-2017-10-nanoserver-$(nanoServerVersion)": {
+                  "isUndocumented": true
+                }
+              }
+            },
+            {
+              "dockerfile": "2.0/nanoserver/1709/kitchensink",
+              "os": "windows",
+              "tags": {
+                "1.0-2.0-nanoserver-1709": {},
+                "1.0-2.0-2017-10-nanoserver-1709": {
                   "isUndocumented": true
                 }
               }

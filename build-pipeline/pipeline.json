@@ -17,21 +17,21 @@
           "Name": "aspnet-docker-linux-images",
           "Parameters": {
             "PB.image-builder.path": "1.0*",
-            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons --dry-run"
           }
         },
         {
           "Name": "aspnet-docker-linux-images",
           "Parameters": {
             "PB.image-builder.path": "1.1*",
-            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons --dry-run"
           }
         },
         {
           "Name": "aspnet-docker-linux-images",
           "Parameters": {
             "PB.image-builder.path": "2.0*",
-            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons --dry-run"
           }
         }
       ]
@@ -46,21 +46,21 @@
           "Name": "aspnet-docker-windows-images",
           "Parameters": {
             "PB.image-builder.path": "1.0*",
-            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons --dry-run"
           }
         },
         {
           "Name": "aspnet-docker-windows-images",
           "Parameters": {
             "PB.image-builder.path": "1.1*",
-            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons --dry-run"
           }
         },
         {
           "Name": "aspnet-docker-windows-images",
           "Parameters": {
             "PB.image-builder.path": "2.0/nanoserver/*",
-            "PB.image-builder.customCommonArgs": "--repo-owner msimons --skip-test"
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons --dry-run"
           }
         }
       ]
@@ -75,7 +75,7 @@
           "Name": "aspnet-docker-windows-images",
           "Parameters": {
             "PB.image-builder.path": "2.0/nanoserver-1709/*",
-            "PB.image-builder.customCommonArgs": "--repo-owner msimons --skip-test --skip-pulling"
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons --skip-pulling --dry-run"
           }
         }
       ]

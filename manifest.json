@@ -84,20 +84,17 @@
               }
             },
             {
-              "dockerfile": "2.0/nanoserver/14393/runtime",
+              "dockerfile": "2.0/nanoserver/runtime",
               "os": "windows",
               "tags": {
-                "2.0.0-nanoserver-14393": {},
-                "2.0.0-nanoserver": {
-                  "isUndocumented": true
-                },
+                "2.0.0-nanoserver": {},
                 "2.0.0-nanoserver-$(nanoServerVersion)": {
                   "isUndocumented": true
                 }
               }
             },
             {
-              "dockerfile": "2.0/nanoserver/1709/runtime",
+              "dockerfile": "2.0/nanoserver-1709/runtime",
               "os": "windows",
               "tags": {
                 "2.0.0-nanoserver-1709": {}
@@ -192,20 +189,17 @@
               }
             },
             {
-              "dockerfile": "2.0/nanoserver/14393/sdk",
+              "dockerfile": "2.0/nanoserver/sdk",
               "os": "windows",
               "tags": {
-                "2.0.2-nanoserver-14393": {},
-                "2.0.2-nanoserver": {
-                  "isUndocumented": true
-                },
+                "2.0.2-nanoserver": {},
                 "2.0.2-nanoserver-$(nanoServerVersion)": {
                   "isUndocumented": true
                 }
               }
             },
             {
-              "dockerfile": "2.0/nanoserver/1709/sdk",
+              "dockerfile": "2.0/nanoserver-1709/sdk",
               "os": "windows",
               "tags": {
                 "2.0.2-nanoserver-1709": {}

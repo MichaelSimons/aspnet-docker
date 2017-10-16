@@ -16,19 +16,22 @@
         {
           "Name": "aspnet-docker-linux-images",
           "Parameters": {
-            "PB.image-builder.path": "1.0"
+            "PB.image-builder.path": "1.0*",
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
           }
         },
         {
           "Name": "aspnet-docker-linux-images",
           "Parameters": {
-            "PB.image-builder.path": "1.1"
+            "PB.image-builder.path": "1.1*",
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
           }
         },
         {
           "Name": "aspnet-docker-linux-images",
           "Parameters": {
-            "PB.image-builder.path": "2.0"
+            "PB.image-builder.path": "2.0*",
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
           }
         }
       ]
@@ -42,19 +45,37 @@
         {
           "Name": "aspnet-docker-windows-images",
           "Parameters": {
-            "PB.image-builder.path": "1.0"
+            "PB.image-builder.path": "1.0*",
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
           }
         },
         {
           "Name": "aspnet-docker-windows-images",
           "Parameters": {
-            "PB.image-builder.path": "1.1"
+            "PB.image-builder.path": "1.1*",
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons"
           }
         },
         {
           "Name": "aspnet-docker-windows-images",
           "Parameters": {
-            "PB.image-builder.path": "2.0"
+            "PB.image-builder.path": "2.0/nanoserver/*",
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons --skip-test"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Build Windows 1709 Images",
+      "Parameters": {
+        "TreatWarningsAsErrors": "false"
+      },
+      "Definitions": [
+        {
+          "Name": "aspnet-docker-windows-images",
+          "Parameters": {
+            "PB.image-builder.path": "2.0/nanoserver-1709/*",
+            "PB.image-builder.customCommonArgs": "--repo-owner msimons --skip-test --skip-pulling"
           }
         }
       ]
